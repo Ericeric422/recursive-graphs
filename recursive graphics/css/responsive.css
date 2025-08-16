@@ -1,0 +1,42 @@
+@media (max-width: 600px) {
+  .controls {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.7rem 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .canvas-wrapper {
+    height: 70vw;
+    min-height: 180px;
+    padding: 0 0.2rem 1rem 0.2rem;
+  }
+  canvas {
+    border-radius: 10px;
+  }
+  .side-menu {
+    width: 80vw;
+    min-width: 180px;
+    max-width: 95vw;
+  }
+  .menu-btn {
+    top: 0.5rem;
+    left: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+    padding: 0.2rem;
+  }
+  .side-menu-header {
+    font-size: 1.05rem;
+    padding: 0.5rem 0.7rem 0.4rem 0.7rem;
+  }
+  .side-menu ul {
+    padding: 0 0.7rem;
+  }
+  .back-btn {
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.1rem 0.5rem;
+  }
+} 
