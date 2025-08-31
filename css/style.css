@@ -13,6 +13,8 @@ body {
   min-height: 100vh;
   color: #222;
   letter-spacing: 0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 h1, h2, h3, h4, h5 {
@@ -29,10 +31,11 @@ h1, h2, h3, h4, h5 {
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
   padding: 1.5rem 1.5rem 2.5rem 1.5rem;
-  transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s;
 }
 .canvas-wrapper:hover {
   box-shadow: 0 10px 40px rgba(60, 80, 120, 0.18), 0 4px 16px rgba(60, 80, 120, 0.13);
+  transform: translateY(-1px);
 }
 
 canvas {

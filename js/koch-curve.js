@@ -62,8 +62,7 @@ export function drawKoch(ctx, x, y, size, depth) {
   const startY = y;
   const endX = x + size / 2;
   const endY = y;
-  
-  ctx.beginPath();
+
+  // Delegate only path construction; caller is responsible for beginPath()/stroke()
   drawKochSegment(ctx, startX, startY, endX, endY, depth);
-  ctx.stroke();
 }

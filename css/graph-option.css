@@ -2,16 +2,22 @@
   width: 100%;
   background: #f7f7fa;
   border: 1px solid #bbb;
-  border-radius: 6px;
+  border-radius: 8px;
   padding: 0.6rem 0.7rem;
   font-size: 1.05rem;
   color: #222;
   text-align: left;
   cursor: pointer;
-  background: none;
-  border: none;
+  transition: transform 0.12s ease, background 0.2s, border 0.2s, box-shadow 0.2s;
 }
 .graph-option:hover, .graph-option:focus {
   background: #e3e9f3;
   border: 1.5px solid #4a90e2;
+  box-shadow: 0 4px 14px rgba(74,144,226,0.15);
+  transform: translateY(-1px);
 } 
+.graph-option.active {
+  background: #e8f0fe;
+  border: 1.5px solid #4a90e2;
+  box-shadow: 0 6px 18px rgba(74,144,226,0.18);
+}
