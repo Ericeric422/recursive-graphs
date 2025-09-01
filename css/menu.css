@@ -13,7 +13,7 @@
   align-items: center;
   padding: 0.4rem;
   cursor: pointer;
-  transition: left 0.3s, top 0.3s;
+  transition: left 0.3s, top 0.3s, transform 0.15s ease;
 }
 .menu-btn span {
   display: block;
@@ -23,3 +23,4 @@
   border-radius: 2px;
   transition: 0.3s;
 } 
+.menu-btn:hover { transform: scale(1.04); }

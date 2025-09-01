@@ -16,6 +16,18 @@ const FRACTAL_INFO = {
   koch: {
     title: 'Koch Curve',
     body: `The Koch Curve is constructed by recursively replacing each line segment with four segments that form a triangular "bump". With each iteration, the curve becomes more intricate, eventually forming the famous snowflake shape when applied to all sides of a triangle. The Koch Curve is a classic example of a mathematical fractal.`
+  },
+  hilbert: {
+    title: 'Hilbert Curve',
+    body: `The Hilbert Curve is a space-filling fractal that maps a 1D line into 2D space while preserving locality. At each iteration the path folds to visit every cell in a grid without crossing, producing an elegant, continuous curve.`
+  },
+  pythagoras: {
+    title: 'Pythagoras Tree',
+    body: `The Pythagoras Tree is built from squares arranged to form a branching tree. Each square spawns two smaller squares at its top edge, creating a self-similar canopy reminiscent of a stylized tree.`
+  },
+  binary: {
+    title: 'Binary Tree',
+    body: `A classic recursive binary tree rendered with line segments. Each branch splits into two smaller branches at a fixed angle, illustrating recursion and geometric decay.`
   }
 };
 
